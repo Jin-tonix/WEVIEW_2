@@ -1,0 +1,49 @@
+name: weview
+description: "weview"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6           # ⬅️ 최신 대신 0.13 유지
+  webview_flutter: ^4.13.0
+  webview_flutter_android: ^4.7.0
+  webview_flutter_wkwebview: ^3.22.0
+  flutter_dotenv: ^5.1.0
+  firebase_core: ^3.13.1
+  firebase_auth: ^5.5.4
+  firebase_storage: ^12.4.6
+  firebase_app_check: ^0.3.2+6  # 최신 버전으로 업데이트
+
+  image_picker: ^1.0.4
+  google_sign_in: ^6.2.1
+  google_maps_webservice: ^0.0.20-nullsafety.5
+  cloud_firestore: ^5.6.8
+  location: ^8.0.0                  # 최신 위치 플러그인!
+  google_maps_flutter: ^2.6.0       # 공식 구글 지도 플러그인(최신 안정)
+  geolocator: ^14.0.1
+  cupertino_icons: ^1.0.8
+  flutter_localizations:
+    sdk: flutter
+  cached_network_image: ^3.1.0
+  permission_handler: ^12.0.0+1     # 그대로 사용 가능
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  uuid: ^4.3.3  # ✅ 이 줄 추가
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/.env
+    - assets/google_logo.png
+fonts:
+  - family: MaterialIcons
+    fonts:
+      - asset: fonts/MaterialIcons-Regular.otf
