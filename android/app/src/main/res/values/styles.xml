@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="GOOGLE_MAPS_API_KEY">AIzaSyBlCVb5mYIuhTjnAP0-cz9GmzJLuEkvtAU</string>  <!-- 여기에 실제 Google Maps API 키를 입력 -->
+    <string name="GOOGLE_MAPS_API_KEY"></string>  <!-- 여기에 실제 Google Maps API 키를 입력 -->
 
     <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is off -->
     <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
